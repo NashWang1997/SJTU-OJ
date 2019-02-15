@@ -1,13 +1,13 @@
 /*
 1000. A+B Problem
 Description
-×÷ÎªËùÓĞ Online Judge µÄ´«Í³ÌâÄ¿£¬ÄãÖ»Ğè¶ÁÁ½¸öÕûÊı£¬Êä³ö¼´¿É£¬±£Ö¤ÊäÈëµÄÊı¾ø¶ÔÖµ²»³¬¹ı1000¡£
+ä½œä¸ºæ‰€æœ‰ Online Judge çš„ä¼ ç»Ÿé¢˜ç›®ï¼Œä½ åªéœ€è¯»ä¸¤ä¸ªæ•´æ•°ï¼Œè¾“å‡ºå³å¯ï¼Œä¿è¯è¾“å…¥çš„æ•°ç»å¯¹å€¼ä¸è¶…è¿‡1000ã€‚
 
 Input Format
-Ò»ĞĞ,Á½¸ö¿Õ¸ñ¸ô¿ªµÄÕûÊıA,B¡£
+ä¸€è¡Œ,ä¸¤ä¸ªç©ºæ ¼éš”å¼€çš„æ•´æ•°A,Bã€‚
 
 Output Format
-Ò»¸öÊıA+B¡£
+ä¸€ä¸ªæ•°A+Bã€‚
 
 Sample Input
 3 2
@@ -15,12 +15,13 @@ Sample Output
 5
 */
 #include <iostream>
+#include <cstdlib>
 using namespace std;
-
+ 
 int main()
 {
-    int A, B;
-    cin >> A >> B;
-    cout << A + B;
-    return 0;
+	int A, B;
+	scanf("%d%d", &A, &B);
+	printf("%d", A+B);
+	return 0;
 }
